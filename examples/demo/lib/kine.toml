@@ -1,0 +1,5 @@
+[project]
+provider = "jvm"
+
+[project.options]
+java = 21

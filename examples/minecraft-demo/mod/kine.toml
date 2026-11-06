@@ -1,0 +1,6 @@
+[project]
+provider = "minecraft"
+
+[project.options]
+version = "1.20.1"
+minecraft_jar = "../game/minecraft.jar"

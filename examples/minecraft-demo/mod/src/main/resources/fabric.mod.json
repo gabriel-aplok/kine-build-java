@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "example-mod",
+  "version": "1.0.0",
+  "name": "Example Mod",
+  "entrypoints": {
+    "main": ["com.example.ExampleMod"]
+  },
+  "depends": {
+    "minecraft": "1.20.1"
+  }
+}

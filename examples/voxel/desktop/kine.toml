@@ -1,0 +1,16 @@
+[project]
+provider = "jvm"
+depends_on = ["core"]
+
+[project.options]
+java = 21
+main_class = "voxel.desktop.DesktopLauncher"
+jar = "voxel-desktop.jar"
+
+[project.options.dependencies]
+compile = [
+  "com.badlogicgames.gdx:gdx:1.12.1",
+  "com.badlogicgames.gdx:gdx-backend-lwjgl3:1.12.1",
+]
+
+runtime = ["com.badlogicgames.gdx:gdx-platform:1.12.1:natives-desktop"]

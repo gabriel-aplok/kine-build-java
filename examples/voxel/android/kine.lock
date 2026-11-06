@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "repositories": [
+    {
+      "ID": "central",
+      "URL": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "ID": "google",
+      "URL": "https://dl.google.com/dl/android/maven2"
+    }
+  ],
+  "roots": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-backend-android",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-platform",
+      "version": "1.12.1",
+      "classifier": "natives-arm64-v8a",
+      "extension": "jar",
+      "scope": "runtime"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile"
+    }
+  ],
+  "artifacts": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-backend-android",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "aar",
+      "file": "gdx-backend-android-1.12.1.aar",
+      "scope": "compile",
+      "sha256": "92900e7003db98d3e0007208f6d06f4568beea8a7b975b66da455d7d51e20556",
+      "size": 150690,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-jnigen-loader",
+      "version": "2.3.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-jnigen-loader-2.3.1.jar",
+      "scope": "compile",
+      "sha256": "6490dda225a61c7602c27bbec4e481137ff595f8ce0b2ddba414f0c3406aee60",
+      "size": 6702,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-platform",
+      "version": "1.12.1",
+      "classifier": "natives-arm64-v8a",
+      "extension": "jar",
+      "scope": "runtime",
+      "sha256": "529cf37da23b62c1ca8ea9e9d2b521f5481f315d540c5d4778cea254dfe5e59d",
+      "size": 75731,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-1.12.1.jar",
+      "scope": "compile",
+      "sha256": "8d3209e948211fde9cdacc2b01faced323e548aa52ef78e5c760845a88746970",
+      "size": 2041345,
+      "repository": "central"
+    }
+  ]
+}

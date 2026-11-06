@@ -1,0 +1,3 @@
+[workspace]
+name = "android-demo"
+members = ["app"]

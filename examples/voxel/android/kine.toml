@@ -1,0 +1,18 @@
+[project]
+provider = "android"
+depends_on = ["core"]
+
+[project.options]
+compile_sdk = 36
+min_sdk = 24
+target_sdk = 36
+version_code = 1
+version_name = "1.0"
+
+[project.options.dependencies]
+compile = [
+  "com.badlogicgames.gdx:gdx:1.12.1",
+  "com.badlogicgames.gdx:gdx-backend-android:1.12.1",
+]
+
+runtime = ["com.badlogicgames.gdx:gdx-platform:1.12.1:natives-arm64-v8a"]

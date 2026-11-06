@@ -1,0 +1,7 @@
+[project]
+provider = "jvm"
+depends_on = ["lib"]
+
+[project.options]
+java = 21
+main_class = "demo.App"

@@ -1,0 +1,3 @@
+[workspace]
+name = "demo"
+members = ["lib", "app"]

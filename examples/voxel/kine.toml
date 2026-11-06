@@ -1,0 +1,3 @@
+[workspace]
+name = "voxel"
+members = ["core", "desktop", "android"]

@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "repositories": [
+    {
+      "ID": "central",
+      "URL": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "ID": "google",
+      "URL": "https://dl.google.com/dl/android/maven2"
+    }
+  ],
+  "roots": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile"
+    }
+  ],
+  "artifacts": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-jnigen-loader",
+      "version": "2.3.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-jnigen-loader-2.3.1.jar",
+      "scope": "compile",
+      "sha256": "6490dda225a61c7602c27bbec4e481137ff595f8ce0b2ddba414f0c3406aee60",
+      "size": 6702,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-1.12.1.jar",
+      "scope": "compile",
+      "sha256": "8d3209e948211fde9cdacc2b01faced323e548aa52ef78e5c760845a88746970",
+      "size": 2041345,
+      "repository": "central"
+    }
+  ]
+}

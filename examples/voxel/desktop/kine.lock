@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "repositories": [
+    {
+      "ID": "central",
+      "URL": "https://repo.maven.apache.org/maven2"
+    },
+    {
+      "ID": "google",
+      "URL": "https://dl.google.com/dl/android/maven2"
+    }
+  ],
+  "roots": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-backend-lwjgl3",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-platform",
+      "version": "1.12.1",
+      "classifier": "natives-desktop",
+      "extension": "jar",
+      "scope": "runtime"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile"
+    }
+  ],
+  "artifacts": [
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-backend-lwjgl3",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-backend-lwjgl3-1.12.1.jar",
+      "scope": "compile",
+      "sha256": "0773b08c77c1a077093c5972cb8bb6589b917b8645ffeb4a87b80ab03838d68d",
+      "size": 144992,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-jnigen-loader",
+      "version": "2.3.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-jnigen-loader-2.3.1.jar",
+      "scope": "compile",
+      "sha256": "6490dda225a61c7602c27bbec4e481137ff595f8ce0b2ddba414f0c3406aee60",
+      "size": 6702,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx-platform",
+      "version": "1.12.1",
+      "classifier": "natives-desktop",
+      "extension": "jar",
+      "scope": "runtime",
+      "sha256": "3febada94c22363610917b9fb8c24b0f9e61e3e6c69c73bd0d35038584c0e1ed",
+      "size": 483136,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.gdx",
+      "artifact": "gdx",
+      "version": "1.12.1",
+      "classifier": "",
+      "extension": "jar",
+      "file": "gdx-1.12.1.jar",
+      "scope": "compile",
+      "sha256": "8d3209e948211fde9cdacc2b01faced323e548aa52ef78e5c760845a88746970",
+      "size": 2041345,
+      "repository": "central"
+    },
+    {
+      "group": "com.badlogicgames.jlayer",
+      "artifact": "jlayer",
+      "version": "1.0.1-gdx",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "aabcdedc2e3fa41c4e138870523d743337f189931080630ba1a2285538cd00fb",
+      "size": 89845,
+      "repository": "central"
+    },
+    {
+      "group": "org.jcraft",
+      "artifact": "jorbis",
+      "version": "0.0.17",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "e067f29a3701426b67ed973036949c6e58ca5bb53eef7240b2e71e286d252a9e",
+      "size": 99701,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl-glfw",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "bedc757fd2b1b255146db26b74b9cbd1fcf5644b89b47b104fa721c741604259",
+      "size": 135546,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl-jemalloc",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "e99e31269e6678a4bfc62ef24c50a481c01cbdd004861ece9a59ba12768c6516",
+      "size": 43896,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl-openal",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "ae0e82767cacf08921f578fba9d84753ddeb00ceada0510a2b4a882be28fbf95",
+      "size": 110586,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl-opengl",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "5062da750e5f7ec89e27e8b67b7d40fa8c4b16890159e35f828116ce6c8eca1e",
+      "size": 929192,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl-stb",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "0cff7aa46ea9d70fcc20857015293ea80fbf21adcac34600c84da9b81a44ca93",
+      "size": 120283,
+      "repository": "central"
+    },
+    {
+      "group": "org.lwjgl",
+      "artifact": "lwjgl",
+      "version": "3.3.3",
+      "classifier": "",
+      "extension": "jar",
+      "scope": "compile",
+      "sha256": "dc9c7b2d48e8396d68895f8902ffa01e46253de44dfe927533ff09457ebfeec4",
+      "size": 785029,
+      "repository": "central"
+    }
+  ]
+}

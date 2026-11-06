@@ -1,0 +1,11 @@
+[project]
+provider = "desktop"
+
+[project.options]
+java = 21
+main_class = "demo.App"
+
+[project.options.package]
+name = "Demo"
+vendor = "Kine"
+version = "1.0.0"

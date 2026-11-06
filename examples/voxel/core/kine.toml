@@ -1,0 +1,9 @@
+[project]
+provider = "jvm"
+
+[project.options]
+java = 21
+jar = "voxel-core.jar"
+
+[project.options.dependencies]
+compile = ["com.badlogicgames.gdx:gdx:1.12.1"]

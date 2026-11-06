@@ -1,0 +1,29 @@
+# Local build output
+/kine
+/kine.exe
+**/build/
+**/.kine/
+**/dist/
+
+# Example helper output
+examples/plugin-demo/plugins/*.jar
+examples/minecraft-demo/game/minecraft.jar
+**/*.class
+**/.classes/
+**/.sources
+examples/voxel/*.png
+!examples/voxel/night.png
+
+# Local notes and working files
+/files/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Logs and local temporary files
+*.log

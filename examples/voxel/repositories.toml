@@ -1,0 +1,7 @@
+[[repository]]
+id = "central"
+url = "https://repo.maven.apache.org/maven2"
+
+[[repository]]
+id = "google"
+url = "https://dl.google.com/dl/android/maven2"
